@@ -48,7 +48,7 @@ export default function Login(){
                                         <div className="col-12">
                                             <div className="form-inner">
                                                 <label>Password *</label>
-                                                <input type="password" {...register('mpd')} defaultValue="billy" placeholder="Password" />
+                                                <input type="password" {...register('mpd')} defaultValue="billy" placeholder="Your Password" />
                                                 <i className="bi bi-eye-slash" id="togglePassword"></i>
                                             </div>
                                         </div>
