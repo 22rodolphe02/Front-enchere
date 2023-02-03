@@ -42,13 +42,13 @@ export default function Login(){
                                         <div className="col-12">
                                             <div className="form-inner">
                                                 <label>Enter Your Email *</label>
-                                                <input type="email" {...register('email')} defaultValue="billy@gmail.com" placeholder="Enter Your Email" />
+                                                <input type="email" {...register('email')} value="billy@gmail.com" placeholder="Enter Your Email" />
                                             </div>
                                         </div>
                                         <div className="col-12">
                                             <div className="form-inner">
                                                 <label>Password *</label>
-                                                <input type="password" {...register('mpd')} defaultValue="billy" placeholder="Password" />
+                                                <input type="password" {...register('mpd')} id="password" value="billy" placeholder="Password" />
                                                 <i className="bi bi-eye-slash" id="togglePassword"></i>
                                             </div>
                                         </div>
