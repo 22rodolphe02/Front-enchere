@@ -42,7 +42,7 @@ export default function Login(){
                                         <div className="col-12">
                                             <div className="form-inner">
                                                 <label>Enter Your Email </label>
-                                                <input type="email" {...register('email')} defaultValue="billy@gmail.com" placeholder="Enter Your Email" />
+                                                <input type="email" {...register('email')} defaultValue="billy@gmail.com" placeholder="Your Email" />
                                             </div>
                                         </div>
                                         <div className="col-12">
